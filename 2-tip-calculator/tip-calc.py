@@ -1,5 +1,4 @@
 print("\n\nWelcome to the tip calculator.")
-
 totalBill = input("What was the total bill? £")
 tipPercent = input("What % tip would you like to give? 10, 12, or 15 ")
 noPeople = input("How many people to split the bill? ")
@@ -31,9 +30,5 @@ strPerPerson = str(rndTotalPerPerson)
 # print(type(strPerPerson))
 strPerPersonBill = "£"+strPerPerson
 print("Each person should pay: ",strPerPersonBill,"\n\n")
-# print("Each person should pay: £",round(totalPerPerson,2),"\n\n")
-
-
-
 
 
